@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercice Cookie</title>
+</head>
+<body>
+  <h1>Gestion des Cookies</h1>
+
+  <label for="cookie-key">Nom du cookie :</label>
+  <input type="text" id="cookie-key" placeholder="Ex: username" />
+  <br />
+  <label for="cookie-value">Valeur du cookie :</label>
+  <input type="text" id="cookie-value" placeholder="Ex: Alice" />
+  <br />
+  <button id="save-cookie-btn">Enregistrer le cookie</button>
+  <button id="show-cookies-btn">Afficher les cookies</button>
+
+  <h2 style="display:none" id="titreListCookies">Liste des cookies :</h2>
+  <ul id="cookies-list"></ul>
+
+  <script src="appv1.js"></script>
+</body>
+</html>
